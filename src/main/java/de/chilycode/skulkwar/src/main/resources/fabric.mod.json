@@ -1,0 +1,12 @@
+
+{
+  "schemaVersion": 1,
+  "id": "skulkwar",
+  "version": "1.0.0",
+  "name": "SkulkWar Complete AI Mod",
+  "description": "Skulk KI, Zombie KI, Nether-Augen-Boss, Bienenkoenigin, Hunter Villager, Gift-Kapitel & Wetter.",
+  "authors": ["chillycode"],
+  "environment": "*",
+  "entrypoints": { "main": ["de.deinname.skulkwar.SkulkWarMod"] },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.1", "java": ">=21", "fabric-api": "*" }
+}

@@ -9,9 +9,3 @@ jobs:
         with:
           java-version: '21'
           distribution: 'temurin'
-      - run: chmod +x gradlew
-      - run: ./gradlew build
-      - uses: actions/upload-artifact@v4
-        with:
-          name: skulkwar-mod
-          path: build/libs/*.jar

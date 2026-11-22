@@ -1,17 +1,9 @@
-name: Build Fabric Mod
-on: [push, workflow_dispatch]
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-java@v4
-        with:
-          java-version: '21'
-          distribution: 'temurin'
-      - run: chmod +x gradlew
-      - run: ./gradlew build
-      - uses: actions/upload-artifact@v4
-        with:
-          name: skulkwar-mod
-          path: build/libs/*.jar
+# krieg der dimensionen
+
+## Setup
+
+For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+
+## License
+
+This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
